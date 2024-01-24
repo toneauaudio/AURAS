@@ -8,15 +8,23 @@
 
 #include <stdio.h>
 #include <iostream>
-using namespace std;
 
-//Function Declarations
-///////////////////////
+//using namespace std;
 
+// Function Declarations
+////////////////////////
+void systemInit();
 
-
+// Main Method
+//////////////
 int main() {
 
-    
+    std::cout << "Hello World!" << std::endl;
+
+}
+
+// Function Definitions
+///////////////////////
+void systemInit(){
 
 }
