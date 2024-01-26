@@ -49,8 +49,8 @@ int main() {
                 motionBKWD();
                 break;
 	        case 5:
-		        motionIdle();
-		        break;
+                motionIdle();
+                break;
         }
     }
 }
