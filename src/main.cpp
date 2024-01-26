@@ -26,7 +26,7 @@ int main() {
 
     //int objectType;
     // for testing purposes only
-    std::vector<int> inputs(2);
+    std::vector<int> inputs(4);
     for (int& input : inputs) {
         std::cin >> input;
     }
@@ -48,9 +48,9 @@ int main() {
             case 4:
                 motionBKWD();
                 break;
-	    case 5:
-		motionIdle();
-		break;
+	        case 5:
+		        motionIdle();
+		        break;
         }
     }
 }
@@ -59,26 +59,22 @@ int main() {
 ///////////////////////
 void noObjectDetected(){
     std::cout << std::endl;
-    std::cout << "No Object Detected" << std::endl;
-    std::cout << std::endl;   
+    std::cout << "No Object Detected" << std::endl;   
 }
 
 void objectDetect(){
     std::cout << std::endl;
     std::cout << "Object Detected" << std::endl;
-    std::cout << std::endl;
 }
 
 void personDetect(){
     std::cout << std::endl;
     std::cout << "Person Detected" << std::endl;
-    std::cout << std::endl;
 }
 
 void motionFWRD(){
     std::cout << std::endl;
     std::cout << "Playing Foward Motion Audio" << std::endl;
-    std::cout << std::endl;
     /*
     Code for Audio Implimentation and Velocity Here
     */
@@ -87,7 +83,6 @@ void motionFWRD(){
 void motionBKWD(){
     std::cout << std::endl;
     std::cout << "Playing Backward Motion Audio" << std::endl;
-    std::cout << std::endl;
     /*
     Code for Audio Implimentation and Velocity Here
     */
@@ -96,7 +91,6 @@ void motionBKWD(){
 void motionIdle(){
     std::cout << std::endl;
     std::cout << "Car Idle/Running" << std::endl;
-    std::cout << std::endl;
     /*
     Code for Idle/Running Audio 
     */
