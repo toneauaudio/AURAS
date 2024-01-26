@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include <iostream>
+//#include "../include/audioSynthesis.hpp"
 
 // Function Declarations
 ////////////////////////
@@ -26,7 +27,7 @@ int main() {
 
     //int objectType;
     // for testing purposes only
-    std::vector<int> inputs(4);
+    std::vector<int> inputs(2);
     for (int& input : inputs) {
         std::cin >> input;
     }
