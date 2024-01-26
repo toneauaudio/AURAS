@@ -16,6 +16,7 @@ void objectDetect();
 void personDetect();
 void motionFWRD();
 void motionBKWD();
+void motionIdle();
 
 // Main Method
 //////////////
@@ -47,6 +48,9 @@ int main() {
             case 4:
                 motionBKWD();
                 break;
+	    case 5:
+		motionIdle();
+		break;
         }
     }
 }
@@ -89,3 +93,11 @@ void motionBKWD(){
     */
 }
 
+void motionIdle(){
+    std::cout << std::endl;
+    std::cout << "Car Idle/Running" << std::endl;
+    std::cout << std::endl;
+    /*
+    Code for Idle/Running Audio 
+    */
+}
